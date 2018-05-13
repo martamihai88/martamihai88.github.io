@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Angry Frogger</title>
+    <link href="https://fonts.googleapis.com/css?family=Titan+One" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="board">
+        <div class="heart">
+            <img src="images/heart.png" alt="heart-img" height="52">
+            <img src="images/heart.png" alt="heart-img" height="52">
+            <img src="images/heart.png" alt="heart-img" height="52">
+        </div>
+        <div class="goldbar">
+            <img src="images/gold.png" alt="gold-bar-img" class="goldy" height="48">
+            <p class="score">x</p>
+            <span class="count-gold">0</span>
+        </div>
+        <div class="egg">
+            <img src="images/egg.png" alt="egg-img" class="eggy" height="48">
+            <p class="score">x</p>
+            <span class="count-egg">0</span>
+        </div>
+    </div>
+    <div id="myModal" class="modal-1">
+        <div class="modal-content-1">
+            <h3>End Game</h3>
+            <p>You managed to gather:</p>
+            <div class="goldbar-end">
+                <img src="images/gold.png"  alt="gold-bar-img" class="goldbar-img" height="48">
+                <p class="score-end">x</p>
+                <span class="count-gold-end">0</span>
+            </div>
+            <div class="egg-end">
+                <img src="images/egg.png"  alt="egg-img" class="eggy-end" height="48">
+                <p class="score-end">x</p>
+                <span class="count-egg-end">0</span>
+            </div>
+            <button id="myBtn-1">Play Again</button>  
+        </div>
+        <div class="modal-content-2">
+            <div class="birds">
+                <img src="images/bird-red.png" alt="red-bird-img" class="redB">
+                <img src="images/bird-yellow.png" alt="yellow-bird-img" class="yellowB">
+                <img src="images/bird-black.png" alt="black-bird-img" class="blackB">
+            </div>    
+            <div>
+                <input type="radio"  name="choice" id="red" onclick="choosePlayer(this.value)" value="red"><span class="red-span">Red</span> 
+                <input type="radio"  name="choice" id="yellow" onclick="choosePlayer(this.value)" value="yellow">
+                <span class="yellow-span">Yellow</span>
+                <input type="radio"  name="choice" id="black" onclick="choosePlayer(this.value)" value="black"> <span class="black-span">Black</span>
+            </div>
+            <div>
+                <h3>Instructions:</h3>
+                <p>Select your character. Try to gather as much gold and eggs as possible, generate them by reaching the water by using the arrow keys. <br>Avoid the bombs and the pigs. <br> Good Luck</p>
+            </div>
+            <button id="myBtn-2">Start Game</button>
+        </div>
+    </div>
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+</body>
+</html>
