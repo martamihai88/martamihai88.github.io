@@ -4,7 +4,7 @@ This is a simple memory game coded with JavaScript, CSS and HTML.
 
 ## Instructions
 
-- There are 3 characters to choose from and has 3 lifes.
+- There are 3 characters to choose from and has 3 life's.
 - The player needs to gather as much eggs and gold as possible.These are  generate when the player reaches the water.
 - The player needs to avoid the bombs and the pigs.
 ## Features 
@@ -12,7 +12,7 @@ This is a simple memory game coded with JavaScript, CSS and HTML.
 - The game features a life, gold and egg counter. 
 - A starting screen to choose the character, a start button.
 - A generator of items to collect.
-- Collsion detection for enemies and bombs.
+- Collision detection for enemies and bombs.
 - When the game ends, a pop-up appears with final score and a restart button.
 
 ## Udacity Resources:
