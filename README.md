@@ -1,6 +1,20 @@
-frontend-nanodegree-arcade-game
-===============================
+# Memory Game Project
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+This is a simple memory game coded with JavaScript, CSS and HTML.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+## Instructions
+
+- There are 3 characters to choose from and has 3 lifes.
+- The player needs to gather as much eggs and gold as possible.These are  generate when the player reaches the water.
+- The player needs to avoid the bombs and the pigs.
+## Features 
+
+- The game features a life, gold and egg counter. 
+- A starting screen to choose the character, a start button.
+- A generator of items to collect.
+- Collsion detection for enemies and bombs.
+- When the game ends, a pop-up appears with final score and a restart button.
+
+## Udacity Resources:
+- [Project Description](https://classroom.udacity.com/nanodegrees/nd001/parts/4942f4d7-a48d-4794-9eb0-404b3ed3cfe1/modules/269645859775463/lessons/2696458597239847/concepts/26849785360923)
+- [PROJECT SPECIFICATION](https://review.udacity.com/#!/rubrics/15/view)
